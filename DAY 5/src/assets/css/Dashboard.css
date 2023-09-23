@@ -1,0 +1,155 @@
+/* Reset some default styles for consistency */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply some basic styling to the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0; /* Remove default margin */
+}
+
+/* Header styling */
+header {
+    background-color: #050f678d;
+    color: #1d0303;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Header h1 styling */
+header h1 {
+    font-size: 24px;
+}
+
+/* Sidebar styling */
+.sidebar {
+    background-color: #050f678d;
+    color: #fff;
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+}
+
+/* Sidebar navigation links styling */
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar nav ul li {
+    padding: 10px 20px;
+}
+
+.sidebar nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    transition: 0.2s;
+}
+
+.sidebar nav ul li a:hover {
+    background-color: #050f678d;
+    
+}
+
+/* Main content styling */
+main {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #050f678d;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative; /* Change to relative positioning */
+    bottom: -610px;
+    width: 100%;
+    height: 60px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  /* Transparent Container */
+  .transparent-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust the opacity (fourth value) as needed */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  /* Rest of your existing CSS styles for product cards */
+  /* ... */
+  
+  
+  /* Title */
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  /* Product List */
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 70px;
+    margin-left: 170px;
+    justify-content: center;
+  }
+  
+  /* Product Card */
+  .product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 30px;
+    position: relative;
+    padding-left: 55px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 300px;
+    width: 100%;
+  }
+  
+  /* Product Image */
+  .product img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Product Name */
+  .product-name {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  /* Product Price */
+  .product-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #007bff;
+    margin-top: 10px;
+  }
+  
+  /* Product Features */
+  .product-features {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+  }
